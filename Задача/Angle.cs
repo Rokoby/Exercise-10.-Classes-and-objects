@@ -80,7 +80,7 @@ namespace Задача
 
     public double ToRadians ()
         {
-            return ((double)Gradus + (double)Min / 60 + (double)Sec / 3600)*Math.PI/180;
+            return (Gradus + (double)Min / 60 + (double)Sec / 3600)*Math.PI/180;
         }
     }
 }
